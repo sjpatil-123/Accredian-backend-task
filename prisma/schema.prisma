@@ -9,7 +9,7 @@ datasource db {
 }
 
 model refer{
-  id Int @id @default(autoincrement())
+  id Int @id
   referalname String 
   referalemail String
 }
